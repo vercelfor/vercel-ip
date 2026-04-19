@@ -43,7 +43,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.static("public"));
 
 const generalLimiter = rateLimit({
-  windowMs: 10 * 60 * 1000,
+  windowMs: 1 * 60 * 1000,
   max: 50,
   standardHeaders: true,
   legacyHeaders: false,
