@@ -63,15 +63,16 @@ app.use((req, res, next) => {
 
 // Firebase
 const firebaseConfig = {
-  apiKey: "AIzaSyDvO8xgmcDmHG1gw5n5NYdNbsvEj2_etLM",
-  authDomain: "ip-check-8ca7e.firebaseapp.com",
-  projectId: "ip-check-8ca7e",
-  storageBucket: "ip-check-8ca7e.firebasestorage.app",
-  messagingSenderId: "243651616930",
-  appId: "1:243651616930:web:f289e4f1d21d9f27e1f7fb",
+  apiKey: "AIzaSyBt3xmDNOxSKuWyeikaLqxUnZBXBwudXVQ",
+  authDomain: "locate-my-ip-4ce83.firebaseapp.com",
+  projectId: "locate-my-ip-4ce83",
+  storageBucket: "locate-my-ip-4ce83.firebasestorage.app",
+  messagingSenderId: "21940563761",
+  appId: "1:21940563761:web:e9c90c537c8b42ccca0a10"
 };
 
-const firebaseApp = initializeApp(firebaseConfig);
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
 const db = getFirestore(firebaseApp);
 
 // ---------- SSE (realtime push) ----------
