@@ -71,7 +71,8 @@ const firebaseConfig = {
   appId: "1:21940563761:web:e9c90c537c8b42ccca0a10"
 };
 
-const app = initializeApp(firebaseConfig);
+// Initialize Firebase
+const firebaseApp = initializeApp(firebaseConfig);
 const db = getFirestore(firebaseApp);
 
 // ---------- SSE (realtime push) ----------
