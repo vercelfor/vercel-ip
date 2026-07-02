@@ -63,12 +63,12 @@ app.use((req, res, next) => {
 
 // Firebase
 const firebaseConfig = {
-  apiKey: "AIzaSyBt3xmDNOxSKuWyeikaLqxUnZBXBwudXVQ",
-  authDomain: "locate-my-ip-4ce83.firebaseapp.com",
-  projectId: "locate-my-ip-4ce83",
-  storageBucket: "locate-my-ip-4ce83.firebasestorage.app",
-  messagingSenderId: "21940563761",
-  appId: "1:21940563761:web:e9c90c537c8b42ccca0a10"
+  apiKey: "AIzaSyCsLFNcBmAmVAkIcsdeUETH0wmJstLjYcQ",
+  authDomain: "geo-info-b7fa4.firebaseapp.com",
+  projectId: "geo-info-b7fa4",
+  storageBucket: "geo-info-b7fa4.firebasestorage.app",
+  messagingSenderId: "1014074057981",
+  appId: "1:1014074057981:web:7bc7ee4315b79285564a94"
 };
 
 // Initialize Firebase
